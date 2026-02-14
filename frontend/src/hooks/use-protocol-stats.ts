@@ -17,9 +17,6 @@ export function useProtocolStats() {
         const fetchStats = async () => {
             try {
                 // Use public provider (no wallet needed for reading)
-                const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/YOUR_INFURA_KEY");
-                
-                // Fallback to window.ethereum if available
                 let actualProvider;
                 if (window.ethereum) {
                     actualProvider = new BrowserProvider(window.ethereum);
