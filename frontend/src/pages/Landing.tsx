@@ -269,7 +269,7 @@ export default function Landing() {
                                 Learn, modify or just explore the code. Make the future of decentralized finance.
                             </p>
                             <Button
-                                onClick={() => window.open('/dashboard', '_blank', 'noopener,noreferrer')}
+                                onClick={() => window.open('https://github.com/Ary0520/Orwex---Deposit.-Borrow.-Earn.', '_blank', 'noopener,noreferrer')}
                                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all group"
                             >
                                 Github

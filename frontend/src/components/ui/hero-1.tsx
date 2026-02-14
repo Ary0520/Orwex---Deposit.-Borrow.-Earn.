@@ -64,7 +64,12 @@ export function Hero({
             {/* Eyebrow */}
             {eyebrow && (
                 <div className="relative z-20 mb-4 flex justify-center">
-                    <a href="#" className="group">
+                    <a 
+                        href="https://github.com/Ary0520/Orwex---Deposit.-Borrow.-Earn." 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group"
+                    >
                         <span
                             className="text-sm text-gray-600 dark:text-gray-400 font-geist mx-auto px-5 py-2 
                 bg-gradient-to-tr from-zinc-300/5 via-gray-400/5 to-transparent  
