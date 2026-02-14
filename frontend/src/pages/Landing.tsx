@@ -131,8 +131,8 @@ export default function Landing() {
                             Built on Ethereum with Chainlink oracles, offering transparent lending with real-time price feeds and automated risk management.
                         </p>
                     </motion.div>
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-10">
-                        <GlowCard glowColor="blue" size="lg" className="flex flex-col items-start justify-end">
+                    <div className="flex flex-col md:flex-row items-center justify-center gap-10 px-4 md:px-0">
+                        <GlowCard glowColor="blue" size="lg" className="flex flex-col items-start justify-end w-full max-w-[85vw] md:max-w-none">
                             <div className="relative z-10 flex flex-col gap-3">
                                 <Shield className="w-8 h-8 text-blue-400" />
                                 <h3 className="text-lg font-semibold text-white">Secure & Transparent</h3>
@@ -142,7 +142,7 @@ export default function Landing() {
                             </div>
                         </GlowCard>
 
-                        <GlowCard glowColor="purple" size="lg" className="flex flex-col items-start justify-end">
+                        <GlowCard glowColor="purple" size="lg" className="flex flex-col items-start justify-end w-full max-w-[85vw] md:max-w-none">
                             <div className="relative z-10 flex flex-col gap-3">
                                 <Zap className="w-8 h-8 text-purple-400" />
                                 <h3 className="text-lg font-semibold text-white">Real-Time Oracles</h3>
@@ -152,7 +152,7 @@ export default function Landing() {
                             </div>
                         </GlowCard>
 
-                        <GlowCard glowColor="green" size="lg" className="flex flex-col items-start justify-end">
+                        <GlowCard glowColor="green" size="lg" className="flex flex-col items-start justify-end w-full max-w-[85vw] md:max-w-none">
                             <div className="relative z-10 flex flex-col gap-3">
                                 <BarChart3 className="w-8 h-8 text-emerald-400" />
                                 <h3 className="text-lg font-semibold text-white">Automated Risk Management</h3>
