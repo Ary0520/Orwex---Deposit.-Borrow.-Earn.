@@ -1,5 +1,8 @@
 # Orwex Protocol
 
+<img width="1897" height="866" alt="image" src="https://github.com/user-attachments/assets/6e8e53bb-91fd-4ecb-88bb-bbe0a461d2b0" />
+
+
 A minimalist decentralized lending protocol enabling WETH-collateralized USDC borrowing with Chainlink oracle integration and automated liquidation mechanisms.
 
 ## Protocol Summary
